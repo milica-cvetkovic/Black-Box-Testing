@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_projekat4_jar_1.0-SNAPSHOT">
+
+    <test name="LoginUspesanChrome">
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        
+        <classes>
+            <class name= "projekat4.LoginUspesan"/>
+        </classes>
+    </test>
+    
+    <test name="LoginUspesanFirefox">
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        
+        <classes>
+            <class name= "projekat4.LoginUspesan"/>
+        </classes>
+    </test>
+    
+    <test name="LoginNeuspesanChrome">
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica123"/>
+        
+        <classes>
+            <class name= "projekat4.LoginNeuspesan"/>
+        </classes>
+    </test>
+    
+    <test name="LoginNeuspesanFirefox">
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica123"/>
+        
+        <classes>
+            <class name= "projekat4.LoginNeuspesan"/>
+        </classes>
+    </test>
+
+</suite>

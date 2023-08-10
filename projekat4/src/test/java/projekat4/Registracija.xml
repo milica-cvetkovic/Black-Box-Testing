@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteRegistracija">
+
+    <!--
+    see examples at http://testng.org/doc/documentation-main.html#testng-xml
+
+    <suite-files>
+        <suite-file path="./junit-suite.xml" />
+    </suite-files>
+
+    <test name="TimeOut">
+        <classes>
+            <class name="test.timeout.TimeOutTest" />
+            <class name="test.timeout.TimeOutFromXmlTest"/>
+            <class name="test.timeout.TimeOutThreadLocalSampleTest"/>
+        </classes>
+    </test>
+    -->
+
+    <test name="RegistracijaUspesnaChrome">
+        
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="Milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>
+                
+        <classes>
+            <class name= "projekat4.RegistracijaUspesna"/>
+        </classes>
+        
+    </test>
+    
+    <test name="RegistracijaUspesnaFirefox">
+        
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="Milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>
+                
+        <classes>
+            <class name= "projekat4.RegistracijaUspesna"/>
+        </classes>
+        
+    </test>
+    
+    <test name="RegistracijaNeuspesnaUsernameChrome">
+        
+        <parameters name="username" value="milica."/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="Milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>       
+        <classes>
+            <class name= "projekat4.RegistracijaNeuspesnaUsername"/>
+        </classes>
+        
+    </test>
+    
+    <test name="RegistracijaNeuspesnaUsernameFirefox">
+        
+        <parameters name="username" value="milica."/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="Milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>       
+        <classes>
+            <class name= "projekat4.RegistracijaNeuspesnaUsername"/>
+        </classes>
+        
+    </test>
+    
+    <test name="RegistracijaNeuspesnaImeChrome">
+        
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>
+        
+        <classes>
+            <class name= "projekat4.RegistracijaNeuspesnaIme"/>
+        </classes>
+        
+    </test>
+    
+    <test name="RegistracijaNeuspesnaImeFirefox">
+        
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>
+        
+        <classes>
+            <class name= "projekat4.RegistracijaNeuspesnaIme"/>
+        </classes>
+        
+    </test>
+  
+    
+    <test name="RegistracijaNeuspesnaPrezimeChrome">
+        
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>
+        
+        <classes>
+            <class name= "projekat4.RegistracijaNeuspesnaPrezime"/>
+        </classes>
+        
+    </test>
+    
+    <test name="RegistracijaNeuspesnaPrezimeFirefox">
+        
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>
+        
+        <classes>
+            <class name= "projekat4.RegistracijaNeuspesnaPrezime"/>
+        </classes>
+        
+    </test>
+
+    
+    <test name="RegistracijaNeuspesnaJMBGChrome">
+        
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>
+        
+        <classes>
+            <class name= "projekat4.RegistracijaNeuspesnaJMBG"/>
+        </classes>
+        
+    </test>
+    
+        <test name="RegistracijaNeuspesnaJMBGFirefox">
+        
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>
+        
+        <classes>
+            <class name= "projekat4.RegistracijaNeuspesnaJMBG"/>
+        </classes>
+        
+    </test>
+    
+    
+    <test name="RegistracijaNeuspesnaKontaktChrome">
+        
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>
+        
+        <classes>
+            <class name= "projekat4.RegistracijaNeuspesnaKontakt"/>
+        </classes>
+        
+    </test>
+    
+    <test name="RegistracijaNeuspesnaKontaktFirefox">
+        
+        <parameters name="username" value="milica"/>
+        <parameters name="lozinka" value="milica"/>
+        <parameters name="potvrda" value="milica"/>
+        <parameters name="ime" value="milica"/>
+        <parameters name="prezime" value="Cvetkovic"/>
+        <parameters name="JMBG" value="1911001727814"/>
+        <parameters name="datum" value="11192001"/>
+        <parameters name="mesto" value="Cuprija"/>
+        <parameters name="kontakt" value="+38160123456"/>
+        <parameters name="mejl" value="milica@gmail.com"/>
+        <parameters name="tip" value="Ispitanik"/>
+        
+        <classes>
+            <class name= "projekat4.RegistracijaNeuspesnaKontakt"/>
+        </classes>
+        
+    </test>
+    
+
+</suite>

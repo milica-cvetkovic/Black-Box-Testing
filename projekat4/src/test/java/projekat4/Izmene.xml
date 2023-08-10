@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_projekat4_jar_1.0-SNAPSHOT">
+
+    <!--
+    see examples at http://testng.org/doc/documentation-main.html#testng-xml
+
+    <suite-files>
+        <suite-file path="./junit-suite.xml" />
+    </suite-files>
+
+    <test name="TimeOut">
+        <classes>
+            <class name="test.timeout.TimeOutTest" />
+            <class name="test.timeout.TimeOutFromXmlTest"/>
+            <class name="test.timeout.TimeOutThreadLocalSampleTest"/>
+        </classes>
+    </test>
+    -->
+
+    <test name="IzmeniAnketuUbaciPitanjeUspesnoChrome">
+        
+        <parameters name="a" value="Matematika"/>
+        <parameters name="p" value="Sta je celija"/>
+        
+        <classes>
+            <class name= "projekat4.IzmeniAnketuUbaciPitanjeUspesno"/>
+        </classes>
+
+    </test>
+    
+    <test name="IzmeniAnketuUbaciPitanjeUspesnoFirefox">
+        
+        <parameters name="a" value="Matematika"/>
+        <parameters name="p" value="Sta je celija"/>
+        
+        <classes>
+            <class name= "projekat4.IzmeniAnketuUbaciPitanjeUspesno"/>
+        </classes>
+
+    </test>
+    
+    <test name="AzurirajKorisnikaUspesnoChrome">
+        
+        <parameters name="username" value="Matematika"/>
+        <parameters name="u" value="Sta je celija"/>
+        <parameters name="l" value="Matematika"/>
+        <parameters name="e" value="Sta je celija"/>
+        <parameters name="t" value="Matematika"/>
+        <parameters name="izaberi" value="Sta je celija"/>
+        
+        <classes>
+            <class name= "projekat4.AzurirajKorisnikaUspesno"/>
+        </classes>
+
+    </test>
+    
+    <test name="AzurirajKorisnikaUspesnoFirefox">
+        
+        <parameters name="username" value="Matematika"/>
+        <parameters name="u" value="Sta je celija"/>
+        <parameters name="l" value="Matematika"/>
+        <parameters name="e" value="Sta je celija"/>
+        <parameters name="t" value="Matematika"/>
+        <parameters name="izaberi" value="Sta je celija"/>
+        
+        <classes>
+            <class name= "projekat4.AzurirajKorisnikaUspesno"/>
+        </classes>
+
+    </test>
+
+</suite>

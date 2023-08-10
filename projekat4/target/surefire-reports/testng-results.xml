@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="projekat4.IzmeniAnketuUbaciPitanjeUspesno" duration-ms="23713" started-at="2022-12-19T18:38:21Z" finished-at="2022-12-19T18:38:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="23713" started-at="2022-12-19T18:38:21Z" finished-at="2022-12-19T18:38:45Z">
+      <class name="projekat4.IzmeniAnketuUbaciPitanjeUspesno">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:projekat4.IzmeniAnketuUbaciPitanjeUspesno@61dc03ce]" name="setUpClass" is-config="true" duration-ms="11" started-at="2022-12-19T18:38:21Z" finished-at="2022-12-19T18:38:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:projekat4.IzmeniAnketuUbaciPitanjeUspesno@61dc03ce]" name="setUpMethod" is-config="true" duration-ms="8" started-at="2022-12-19T18:38:21Z" finished-at="2022-12-19T18:38:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="IzmeniAnketuUbaciPitanjeUspesnoChrome(java.lang.String, java.lang.String)[pri:0, instance:projekat4.IzmeniAnketuUbaciPitanjeUspesno@61dc03ce]" name="IzmeniAnketuUbaciPitanjeUspesnoChrome" duration-ms="10368" started-at="2022-12-19T18:38:21Z" finished-at="2022-12-19T18:38:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Matematika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sta je celija]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IzmeniAnketuUbaciPitanjeUspesnoChrome -->
+        <test-method status="PASS" signature="IzmeniAnketuUbaciPitanjeUspesnoFirefox(java.lang.String, java.lang.String)[pri:0, instance:projekat4.IzmeniAnketuUbaciPitanjeUspesno@61dc03ce]" name="IzmeniAnketuUbaciPitanjeUspesnoFirefox" duration-ms="13299" started-at="2022-12-19T18:38:31Z" finished-at="2022-12-19T18:38:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Matematika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sta je celija]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IzmeniAnketuUbaciPitanjeUspesnoFirefox -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:projekat4.IzmeniAnketuUbaciPitanjeUspesno@61dc03ce]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2022-12-19T18:38:31Z" finished-at="2022-12-19T18:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:projekat4.IzmeniAnketuUbaciPitanjeUspesno@61dc03ce]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2022-12-19T18:38:31Z" finished-at="2022-12-19T18:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:projekat4.IzmeniAnketuUbaciPitanjeUspesno@61dc03ce]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2022-12-19T18:38:45Z" finished-at="2022-12-19T18:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:projekat4.IzmeniAnketuUbaciPitanjeUspesno@61dc03ce]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2022-12-19T18:38:45Z" finished-at="2022-12-19T18:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- projekat4.IzmeniAnketuUbaciPitanjeUspesno -->
+    </test> <!-- Command line test -->
+  </suite> <!-- projekat4.IzmeniAnketuUbaciPitanjeUspesno -->
+</testng-results>

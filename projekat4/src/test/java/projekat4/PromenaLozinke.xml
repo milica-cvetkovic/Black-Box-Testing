@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_projekat4_jar_1.0-SNAPSHOT">
+
+    <!--
+    see examples at http://testng.org/doc/documentation-main.html#testng-xml
+
+    <suite-files>
+        <suite-file path="./junit-suite.xml" />
+    </suite-files>
+
+    <test name="TimeOut">
+        <classes>
+            <class name="test.timeout.TimeOutTest" />
+            <class name="test.timeout.TimeOutFromXmlTest"/>
+            <class name="test.timeout.TimeOutThreadLocalSampleTest"/>
+        </classes>
+    </test>
+    -->
+
+    <test name="PromeniLozinkuUspesnoChrome">
+
+        <parameters name="username" value="milica"/>
+        <parameters name="stara" value="milica"/>
+        <parameters name="nova" value="milica"/>
+        <parameters name="potvrdi" value="milica"/>
+        
+        <classes>
+            <class name= "projekat4.PromeniLozinkuUspesno"/>
+        </classes>
+        
+    </test>
+    
+    
+    <test name="PromeniLozinkuUspesnoFirefox">
+
+        <parameters name="username" value="milica"/>
+        <parameters name="stara" value="milica"/>
+        <parameters name="nova" value="milica"/>
+        <parameters name="potvrdi" value="milica"/>
+        
+        <classes>
+            <class name= "projekat4.PromeniLozinkuUspesno"/>
+        </classes>
+        
+    </test>
+    
+    <test name="PromeniLozinkuNeuspesnoNeslaganjeChrome">
+
+        <parameters name="username" value="milica"/>
+        <parameters name="stara" value="milica"/>
+        <parameters name="nova" value="milica1"/>
+        <parameters name="potvrdi" value="milica"/>
+        
+        <classes>
+            <class name= "projekat4.PromeniLozinkuNeuspesnoNeslaganje"/>
+        </classes>
+        
+    </test>
+    
+    <test name="PromeniLozinkuNeuspesnoNeslaganjeFirefox">
+
+        <parameters name="username" value="milica"/>
+        <parameters name="stara" value="milica"/>
+        <parameters name="nova" value="milica1"/>
+        <parameters name="potvrdi" value="milica"/>
+        
+        <classes>
+            <class name= "projekat4.PromeniLozinkuNeuspesnoNeslaganje"/>
+        </classes>
+        
+    </test>
+    
+    <test name="PromeniLozinkuNeuspesnoPogresnoChrome">
+
+        <parameters name="username" value="milica"/>
+        <parameters name="stara" value="milica123"/>
+        <parameters name="nova" value="milica"/>
+        <parameters name="potvrdi" value="milica"/>
+        
+        <classes>
+            <class name= "projekat4.PromeniLozinkuNeuspesnoPogresno"/>
+        </classes>
+        
+    </test>
+    
+    </test>
+    
+        <test name="PromeniLozinkuNeuspesnoPogresnoFirefox">
+
+        <parameters name="username" value="milica"/>
+        <parameters name="stara" value="milica123"/>
+        <parameters name="nova" value="milica"/>
+        <parameters name="potvrdi" value="milica"/>
+        
+        <classes>
+            <class name= "projekat4.PromeniLozinkuNeuspesnoPogresno"/>
+        </classes>
+        
+    </test>
+
+</suite>
